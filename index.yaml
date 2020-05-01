@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  kubezero:
+  - apiVersion: v2
+    created: "2020-05-01T16:38:22.290287533+01:00"
+    description: KubeZero Helm chart to bootstrap Kube cluster incl. ArgoCD
+    digest: 130523f80251093c7169ac83c8c820b7829a101b9d6f24f783666e5bd9ba5d73
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - argocd
+    - gitops
+    maintainers:
+    - name: Quarky9
+    name: kubezero
+    urls:
+    - kubezero-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-05-01T16:38:22.28317107+01:00"
