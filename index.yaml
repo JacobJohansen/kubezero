@@ -2,7 +2,26 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-02T16:27:15.5090266+01:00"
+    created: "2020-05-02T16:41:23.416851673+01:00"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 2.2.12
+    description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
+    digest: e2dca7a5e0208a55dd487249de3d90d609c4e6ee3c15ec7519b341bc526be8c5
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - argocd
+    - gitops
+    maintainers:
+    - name: Quarky9
+    name: kubezero
+    urls:
+    - kubezero-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    created: "2020-05-02T16:41:23.410204159+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -21,7 +40,7 @@ entries:
     - kubezero-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
-    created: "2020-05-02T16:27:15.503165531+01:00"
+    created: "2020-05-02T16:41:23.40459347+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -40,7 +59,7 @@ entries:
     - kubezero-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
-    created: "2020-05-02T16:27:15.498012089+01:00"
+    created: "2020-05-02T16:41:23.397922787+01:00"
     description: KubeZero Helm chart to bootstrap Kube cluster incl. ArgoCD
     digest: 966de4b9907e8c34b806da3ab4a29668b70232b2ca689c9675165def34bb986b
     home: https://kubezero.com
@@ -55,12 +74,12 @@ entries:
     - kubezero-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2020-05-02T16:27:15.489738579+01:00"
+    created: "2020-05-02T16:41:23.392557744+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: 73aa03c7287c2a07ac114f47ca608c4f87886533e52b8c09ec210601950513b6
+    digest: f07474a796999fc94b754caa9d12c3589117e8be941baa2fc12b8b39aef99559
     name: kubezero
     type: application
     urls:
     - kubezero-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-02T16:27:15.489208499+01:00"
+generated: "2020-05-02T16:41:23.392060001+01:00"
