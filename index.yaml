@@ -2,7 +2,26 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.099753138+01:00"
+    created: "2020-05-03T00:02:47.267799786+01:00"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 2.2.12
+    description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
+    digest: 227ca96c76d2e9232ba2709946faed7e696725b1e284d934a8c4ae041a1b92e4
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - argocd
+    - gitops
+    maintainers:
+    - name: Quarky9
+    name: kubezero
+    urls:
+    - kubezero-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    created: "2020-05-03T00:02:47.26190583+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -21,7 +40,7 @@ entries:
     - kubezero-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.092998398+01:00"
+    created: "2020-05-03T00:02:47.257349257+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -40,7 +59,7 @@ entries:
     - kubezero-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.088275866+01:00"
+    created: "2020-05-03T00:02:47.252587864+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -59,7 +78,7 @@ entries:
     - kubezero-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.082970225+01:00"
+    created: "2020-05-03T00:02:47.246011612+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -78,7 +97,7 @@ entries:
     - kubezero-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.07640768+01:00"
+    created: "2020-05-03T00:02:47.239335445+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -97,7 +116,7 @@ entries:
     - kubezero-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.071216021+01:00"
+    created: "2020-05-03T00:02:47.234009203+01:00"
     description: KubeZero Helm chart to bootstrap Kube cluster incl. ArgoCD
     digest: 966de4b9907e8c34b806da3ab4a29668b70232b2ca689c9675165def34bb986b
     home: https://kubezero.com
@@ -112,7 +131,7 @@ entries:
     - kubezero-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.064611673+01:00"
+    created: "2020-05-03T00:02:47.228091168+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
     digest: 20a6934759c35243cbe330d38c695166dd43b1b4447cd5ccc2b7299aecdc1699
     name: kubezero
@@ -122,12 +141,12 @@ entries:
     version: 0.1.0
   kubezero-app:
   - apiVersion: v2
-    created: "2020-05-02T23:46:50.100147314+01:00"
+    created: "2020-05-03T00:02:47.268120929+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: 928bbf47fdfbd075515853baff3d0fcb5f9579a2c2c63e4e51c3cc954a4e63cf
+    digest: a3aae0b1f94b489f9e29a896793a01c063b81acc1bfb0db2b71f5142abad0bd5
     name: kubezero-app
     type: application
     urls:
     - kubezero-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-02T23:46:50.064136141+01:00"
+generated: "2020-05-03T00:02:47.227580828+01:00"
