@@ -2,7 +2,26 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-05T15:31:45.71647366+01:00"
+    created: "2020-05-05T15:40:22.682962474+01:00"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 2.2.13
+    description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
+    digest: a7773de77eaaaa06352808425163ee4da1d637d1a948e36612887abd5f1c56b7
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - argocd
+    - gitops
+    maintainers:
+    - name: Quarky9
+    name: kubezero
+    urls:
+    - kubezero-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    created: "2020-05-05T15:40:22.675606298+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -22,9 +41,9 @@ entries:
     version: 0.2.0
   kubezeroApp:
   - apiVersion: v2
-    created: "2020-05-05T15:31:45.716927209+01:00"
+    created: "2020-05-05T15:40:22.683449314+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: 2646bfe6d9ac498e81349d69ac056053584755ef7db7be6a03f49bde12eaac97
+    digest: 574d8a6959a95a0054e95d7cb7c18b7d102b06b98952d0831c01c761f426781b
     home: https://kubezero.com
     keywords:
     - kubezero
@@ -39,13 +58,13 @@ entries:
     version: 0.1.4
   kubezeroCertManager:
   - apiVersion: v2
-    created: "2020-05-05T15:31:45.721262023+01:00"
+    created: "2020-05-05T15:40:22.688923321+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
       version: 0.14.3
     description: KubeZero Umbrella Chart for cert-manager
-    digest: c27a917f6c611b1e95ea9987ad7ddae7d5e0eaed158a750cc250e0b711ff2572
+    digest: 5812f960a70e98bfd6033d7169517c0f24c070172ed13255e2bd71e8c002cdce
     home: https://kubezero.com
     keywords:
     - kubezero
@@ -57,4 +76,4 @@ entries:
     urls:
     - kubezeroCertManager-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-05T15:31:45.706560537+01:00"
+generated: "2020-05-05T15:40:22.665135144+01:00"
