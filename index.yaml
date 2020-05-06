@@ -2,7 +2,26 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-06T18:24:18.6560831+01:00"
+    created: "2020-05-06T18:40:06.662110417+01:00"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 2.2.15
+    description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
+    digest: e74cf9e4550eee6ada0b83f60af376fa5217ac4d7f6e7189502d6ab5f625e5d1
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - argocd
+    - gitops
+    maintainers:
+    - name: Quarky9
+    name: kubezero
+    urls:
+    - kubezero-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    created: "2020-05-06T18:40:06.652907987+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -21,7 +40,7 @@ entries:
     - kubezero-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2020-05-06T18:24:18.647550853+01:00"
+    created: "2020-05-06T18:40:06.645261612+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -41,9 +60,9 @@ entries:
     version: 0.2.1
   kubezero-app:
   - apiVersion: v2
-    created: "2020-05-06T18:24:18.656606137+01:00"
+    created: "2020-05-06T18:40:06.662589855+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: 2bf8c963c796d38d14654d14a004f5f9d6cfc20d6b02f7f55e8f1fa1a057fd9c
+    digest: 0a33df295d0decb0f8be3966bc7e2c77c95fa9b320396c7b09c4960f7b87e85a
     home: https://kubezero.com
     keywords:
     - kubezero
@@ -58,13 +77,13 @@ entries:
     version: 0.1.9
   kubezero-cert-manager:
   - apiVersion: v2
-    created: "2020-05-06T18:24:18.662243723+01:00"
+    created: "2020-05-06T18:40:06.666748385+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
       version: 0.14.3
     description: KubeZero Umbrella Chart for cert-manager
-    digest: 1dc7037ce9cc1d46445fa5f4d43620c7892ea4221c1c5e642b6ab3789c320a2c
+    digest: 35ba245cb04ec1acceff6f89247fb23d023877a3f386b3e5550a161139eb4d9a
     home: https://kubezero.com
     keywords:
     - kubezero
@@ -76,4 +95,4 @@ entries:
     urls:
     - kubezero-cert-manager-0.1.1.tgz
     version: 0.1.1
-generated: "2020-05-06T18:24:18.63641562+01:00"
+generated: "2020-05-06T18:40:06.635124588+01:00"
