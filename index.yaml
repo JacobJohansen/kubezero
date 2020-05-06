@@ -2,7 +2,26 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-06T18:21:40.616479695+01:00"
+    created: "2020-05-06T18:24:18.6560831+01:00"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 2.2.13
+    description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
+    digest: a1c4ba27f50e4b18543ed1129d5d401475a88957b83697a6694df85e23818d47
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - argocd
+    - gitops
+    maintainers:
+    - name: Quarky9
+    name: kubezero
+    urls:
+    - kubezero-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    created: "2020-05-06T18:24:18.647550853+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -22,9 +41,9 @@ entries:
     version: 0.2.1
   kubezero-app:
   - apiVersion: v2
-    created: "2020-05-06T18:21:40.616920281+01:00"
+    created: "2020-05-06T18:24:18.656606137+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: 5eb67c70bd57d190aa52aa0641c1afe6837114dddd75b1749d496b4039ed8159
+    digest: 2bf8c963c796d38d14654d14a004f5f9d6cfc20d6b02f7f55e8f1fa1a057fd9c
     home: https://kubezero.com
     keywords:
     - kubezero
@@ -39,13 +58,13 @@ entries:
     version: 0.1.9
   kubezero-cert-manager:
   - apiVersion: v2
-    created: "2020-05-06T18:21:40.621037441+01:00"
+    created: "2020-05-06T18:24:18.662243723+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
       version: 0.14.3
     description: KubeZero Umbrella Chart for cert-manager
-    digest: 28ad613ef191d727f74f114624b8b06842a1fb4eebb0c92655e9fbccb41a1204
+    digest: 1dc7037ce9cc1d46445fa5f4d43620c7892ea4221c1c5e642b6ab3789c320a2c
     home: https://kubezero.com
     keywords:
     - kubezero
@@ -57,4 +76,4 @@ entries:
     urls:
     - kubezero-cert-manager-0.1.1.tgz
     version: 0.1.1
-generated: "2020-05-06T18:21:40.608052441+01:00"
+generated: "2020-05-06T18:24:18.63641562+01:00"
