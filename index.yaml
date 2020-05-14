@@ -2,14 +2,15 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-06T18:40:06.662110417+01:00"
+    created: "2020-05-14T11:44:59.940420811+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
       version: 2.2.15
     description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
-    digest: e74cf9e4550eee6ada0b83f60af376fa5217ac4d7f6e7189502d6ab5f625e5d1
+    digest: ad784eb012d5080168d3c100b5024bb1c36e884b2e877cf7d563fd2fd8a5ec7d
     home: https://kubezero.com
+    icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
     - kubezero
     - argocd
@@ -21,7 +22,7 @@ entries:
     - kubezero-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
-    created: "2020-05-06T18:40:06.652907987+01:00"
+    created: "2020-05-14T11:44:59.929054823+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -40,7 +41,7 @@ entries:
     - kubezero-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2020-05-06T18:40:06.645261612+01:00"
+    created: "2020-05-14T11:44:59.921975219+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -60,9 +61,26 @@ entries:
     version: 0.2.1
   kubezero-app:
   - apiVersion: v2
-    created: "2020-05-06T18:40:06.662589855+01:00"
+    created: "2020-05-14T11:44:59.940870637+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: 0a33df295d0decb0f8be3966bc7e2c77c95fa9b320396c7b09c4960f7b87e85a
+    digest: e72f87fddc7921099cb2281828a1362f752993a98b34d2218ddf061a1a22b40a
+    home: https://kubezero.com
+    icon: https://cdn.zero-downtime.net/assets/logo_small.png
+    keywords:
+    - kubezero
+    - argocd
+    - gitops
+    maintainers:
+    - name: Quarky9
+    name: kubezero-app
+    type: application
+    urls:
+    - kubezero-app-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    created: "2020-05-14T11:44:59.941278293+01:00"
+    description: KubeZero ArgoCD Application - Root chart of the KubeZero
+    digest: cae2adc3efdf0ec868f5ddaeb2336c8d268cca0bda302c0312d53b8c30b25d74
     home: https://kubezero.com
     keywords:
     - kubezero
@@ -77,7 +95,65 @@ entries:
     version: 0.1.9
   kubezero-cert-manager:
   - apiVersion: v2
-    created: "2020-05-06T18:40:06.666748385+01:00"
+    created: "2020-05-14T11:44:59.970631277+01:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 0.15.0
+    description: KubeZero Umbrella Chart for cert-manager
+    digest: 9995fe67938f9ad3c2f0cc3bf9ed007aac78cea2e6361bf690ef9f0941634f5f
+    home: https://kubezero.com
+    icon: https://cdn.zero-downtime.net/assets/logo_small.png
+    keywords:
+    - kubezero
+    - cert-manager
+    maintainers:
+    - name: Quarky9
+    name: kubezero-cert-manager
+    type: application
+    urls:
+    - kubezero-cert-manager-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2020-05-14T11:44:59.964669734+01:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 0.15.0
+    description: KubeZero Umbrella Chart for cert-manager
+    digest: 58a69b8547140875201fdda32cbeb17e3ff3e8dfe7567180ac585f6b0d5f6f74
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - cert-manager
+    maintainers:
+    - name: Quarky9
+    name: kubezero-cert-manager
+    type: application
+    urls:
+    - kubezero-cert-manager-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    created: "2020-05-14T11:44:59.95481818+01:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 0.15.0
+    description: KubeZero Umbrella Chart for cert-manager
+    digest: b1748045a5809db539892e8efc4abd5aeccf4fd13e17115978ae85e704e00253
+    home: https://kubezero.com
+    keywords:
+    - kubezero
+    - cert-manager
+    maintainers:
+    - name: Quarky9
+    name: kubezero-cert-manager
+    type: application
+    urls:
+    - kubezero-cert-manager-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2020-05-14T11:44:59.945347942+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -95,4 +171,4 @@ entries:
     urls:
     - kubezero-cert-manager-0.1.1.tgz
     version: 0.1.1
-generated: "2020-05-06T18:40:06.635124588+01:00"
+generated: "2020-05-14T11:44:59.912388812+01:00"
