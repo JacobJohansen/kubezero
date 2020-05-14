@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.940420811+01:00"
+    created: "2020-05-14T11:49:20.462513607+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
       version: 2.2.15
     description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
-    digest: ad784eb012d5080168d3c100b5024bb1c36e884b2e877cf7d563fd2fd8a5ec7d
+    digest: 8cb44ef8be2a74acb88ba3c59de01a044b4de1e690ef465a0d6b7248cdcba15d
     home: https://kubezero.com
     icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
@@ -22,7 +22,7 @@ entries:
     - kubezero-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.929054823+01:00"
+    created: "2020-05-14T11:49:20.452835753+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -41,7 +41,7 @@ entries:
     - kubezero-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.921975219+01:00"
+    created: "2020-05-14T11:49:20.44308987+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -61,9 +61,9 @@ entries:
     version: 0.2.1
   kubezero-app:
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.940870637+01:00"
+    created: "2020-05-14T11:49:20.463589892+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: e72f87fddc7921099cb2281828a1362f752993a98b34d2218ddf061a1a22b40a
+    digest: 33b0f58f22a1a012bd57a626c7001c819f10fc9f4d955fd8a8808d6551c7a5cf
     home: https://kubezero.com
     icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
@@ -78,7 +78,7 @@ entries:
     - kubezero-app-0.1.10.tgz
     version: 0.1.10
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.941278293+01:00"
+    created: "2020-05-14T11:49:20.464140682+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
     digest: cae2adc3efdf0ec868f5ddaeb2336c8d268cca0bda302c0312d53b8c30b25d74
     home: https://kubezero.com
@@ -95,7 +95,27 @@ entries:
     version: 0.1.9
   kubezero-cert-manager:
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.970631277+01:00"
+    created: "2020-05-14T11:49:20.502570692+01:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 0.15.0
+    description: KubeZero Umbrella Chart for cert-manager
+    digest: 859650a42ad1ce23ea02ba269d752aaf8ddffbd32987a0364a8a8b25ef83d772
+    home: https://kubezero.com
+    icon: https://cdn.zero-downtime.net/assets/logo_small.png
+    keywords:
+    - kubezero
+    - cert-manager
+    maintainers:
+    - name: Quarky9
+    name: kubezero-cert-manager
+    type: application
+    urls:
+    - kubezero-cert-manager-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    created: "2020-05-14T11:49:20.495479201+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -115,7 +135,7 @@ entries:
     - kubezero-cert-manager-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.964669734+01:00"
+    created: "2020-05-14T11:49:20.487929826+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -134,7 +154,7 @@ entries:
     - kubezero-cert-manager-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.95481818+01:00"
+    created: "2020-05-14T11:49:20.480814472+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -153,7 +173,7 @@ entries:
     - kubezero-cert-manager-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2020-05-14T11:44:59.945347942+01:00"
+    created: "2020-05-14T11:49:20.468922516+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -171,4 +191,4 @@ entries:
     urls:
     - kubezero-cert-manager-0.1.1.tgz
     version: 0.1.1
-generated: "2020-05-14T11:44:59.912388812+01:00"
+generated: "2020-05-14T11:49:20.435493986+01:00"
