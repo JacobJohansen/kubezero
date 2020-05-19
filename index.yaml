@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   kubezero:
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.286936354+01:00"
+    created: "2020-05-19T15:14:36.249123483+01:00"
     dependencies:
     - name: kubezero-lib
       repository: https://zero-down-time.github.io/kubezero/
@@ -11,7 +11,7 @@ entries:
       repository: https://argoproj.github.io/argo-helm
       version: 2.3.2
     description: KubeZero Helm chart to install Zero Down Time Kuberenetes platform
-    digest: f38f77bd2dd4a409ae3ca7c4431dee01c6a569305beb5bc05e11607a7e22a192
+    digest: e76c5c05b4bb74dfa5b7bbdb9ead75b9177939c401d4582bcc6ca4ae6fd9dfed
     home: https://kubezero.com
     icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
@@ -26,7 +26,7 @@ entries:
     - kubezero-0.2.6.tgz
     version: 0.2.6
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.279424925+01:00"
+    created: "2020-05-19T15:14:36.241524341+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -47,7 +47,7 @@ entries:
     - kubezero-0.2.5.tgz
     version: 0.2.5
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.269952511+01:00"
+    created: "2020-05-19T15:14:36.233576688+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -68,7 +68,7 @@ entries:
     - kubezero-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.260587597+01:00"
+    created: "2020-05-19T15:14:36.226451957+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -88,7 +88,7 @@ entries:
     - kubezero-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.249323976+01:00"
+    created: "2020-05-19T15:14:36.21780457+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -107,7 +107,7 @@ entries:
     - kubezero-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.240228091+01:00"
+    created: "2020-05-19T15:14:36.20688046+01:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -127,13 +127,13 @@ entries:
     version: 0.2.1
   kubezero-app:
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.289128884+01:00"
+    created: "2020-05-19T15:14:36.25121182+01:00"
     dependencies:
     - name: kubezero-lib
       repository: https://zero-down-time.github.io/kubezero/
       version: '>= 0.1.1'
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
-    digest: 97c07d3356e4dc099ccd2336ca33f06f24b3ffe1a9dc2f7bc65ec5a6f8a2f46c
+    digest: 7fde979e07c6321864423b28088b4ed6f788cc0477b1adff405f86700b5f9f57
     home: https://kubezero.com
     icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
@@ -149,7 +149,7 @@ entries:
     - kubezero-app-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.288356088+01:00"
+    created: "2020-05-19T15:14:36.25048348+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
     digest: a0d666720ffc6f0ba02921fb270c846db3025d381eb72b363d4a8bef8b6c3e14
     home: https://kubezero.com
@@ -167,7 +167,7 @@ entries:
     - kubezero-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.28743411+01:00"
+    created: "2020-05-19T15:14:36.249613436+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
     digest: 33b0f58f22a1a012bd57a626c7001c819f10fc9f4d955fd8a8808d6551c7a5cf
     home: https://kubezero.com
@@ -184,7 +184,7 @@ entries:
     - kubezero-app-0.1.10.tgz
     version: 0.1.10
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.287852661+01:00"
+    created: "2020-05-19T15:14:36.25002855+01:00"
     description: KubeZero ArgoCD Application - Root chart of the KubeZero
     digest: cae2adc3efdf0ec868f5ddaeb2336c8d268cca0bda302c0312d53b8c30b25d74
     home: https://kubezero.com
@@ -199,9 +199,36 @@ entries:
     urls:
     - kubezero-app-0.1.9.tgz
     version: 0.1.9
+  kubezero-aws-ebs:
+  - apiVersion: v2
+    created: "2020-05-19T15:14:36.251976738+01:00"
+    dependencies:
+    - name: kubezero-lib
+      repository: https://zero-down-time.github.io/kubezero/
+      version: '>= 0.1.1'
+    description: KubeZero Umbrella Chart for aws-ebs-csi-driver
+    digest: b469ea6739fe99c761462ec06a5c582b59d51eecef9151b306094142fa7f7771
+    home: https://kubezero.com
+    icon: https://cdn.zero-downtime.net/assets/logo_small.png
+    keywords:
+    - kubezero
+    - aws
+    - ebs
+    - csi
+    kubeVersion: '>= 1.16.0'
+    maintainers:
+    - name: Quarky9
+    name: kubezero-aws-ebs
+    sources:
+    - https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    - https://github.com/Zero-Down-Time/kubezero
+    type: application
+    urls:
+    - kubezero-aws-ebs-0.1.0.tgz
+    version: 0.1.0
   kubezero-cert-manager:
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.345003005+01:00"
+    created: "2020-05-19T15:14:36.302990665+01:00"
     dependencies:
     - name: kubezero-lib
       repository: https://zero-down-time.github.io/kubezero/
@@ -210,7 +237,7 @@ entries:
       repository: https://charts.jetstack.io
       version: 0.15.0
     description: KubeZero Umbrella Chart for cert-manager
-    digest: cb3710fed01707dc13cb6f3b22925385b7c2878d6e9b33f1bb06e3aec9f78f23
+    digest: c2b07b3d2ffb7dddd8922bb96a6d7e48c167debf7f36f534e741426646e127a5
     home: https://kubezero.com
     icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
@@ -225,7 +252,7 @@ entries:
     - kubezero-cert-manager-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.33874685+01:00"
+    created: "2020-05-19T15:14:36.296622365+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -246,7 +273,7 @@ entries:
     - kubezero-cert-manager-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.331978433+01:00"
+    created: "2020-05-19T15:14:36.289030632+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -266,7 +293,7 @@ entries:
     - kubezero-cert-manager-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.325479528+01:00"
+    created: "2020-05-19T15:14:36.281796988+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -286,7 +313,7 @@ entries:
     - kubezero-cert-manager-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.314531896+01:00"
+    created: "2020-05-19T15:14:36.274339318+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -305,7 +332,7 @@ entries:
     - kubezero-cert-manager-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.307528842+01:00"
+    created: "2020-05-19T15:14:36.268104806+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -324,7 +351,7 @@ entries:
     - kubezero-cert-manager-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.295051968+01:00"
+    created: "2020-05-19T15:14:36.25783093+01:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -344,7 +371,7 @@ entries:
     version: 0.1.1
   kubezero-kiam:
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.373334481+01:00"
+    created: "2020-05-19T15:14:36.331102113+01:00"
     dependencies:
     - name: kubezero-lib
       repository: https://zero-down-time.github.io/kubezero/
@@ -353,7 +380,7 @@ entries:
       repository: https://uswitch.github.io/kiam-helm-charts/charts/
       version: 5.7.0
     description: KubeZero Umbrella Chart for Kiam
-    digest: cedd01fef4c23e6ff9f9e2921d5800c0e3ab485383dabd6545fd0648a3350447
+    digest: d3c79ab1b2269b6f1865683943e25626f6b5ed2ce57d40c9513c071d945d7325
     home: https://kubezero.com
     icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
@@ -368,7 +395,7 @@ entries:
     - kubezero-kiam-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.368918235+01:00"
+    created: "2020-05-19T15:14:36.32597865+01:00"
     dependencies:
     - name: kubezero-lib
       repository: https://zero-down-time.github.io/kubezero/
@@ -392,7 +419,7 @@ entries:
     - kubezero-kiam-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.363363199+01:00"
+    created: "2020-05-19T15:14:36.322177116+01:00"
     dependencies:
     - name: kiam
       repository: https://uswitch.github.io/kiam-helm-charts/charts/
@@ -413,7 +440,7 @@ entries:
     - kubezero-kiam-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.358390975+01:00"
+    created: "2020-05-19T15:14:36.317331066+01:00"
     dependencies:
     - name: kiam
       repository: https://uswitch.github.io/kiam-helm-charts/charts/
@@ -434,7 +461,7 @@ entries:
     - kubezero-kiam-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.353803189+01:00"
+    created: "2020-05-19T15:14:36.312526833+01:00"
     dependencies:
     - name: kiam
       repository: https://uswitch.github.io/kiam-helm-charts/charts/
@@ -455,7 +482,7 @@ entries:
     - kubezero-kiam-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.348360668+01:00"
+    created: "2020-05-19T15:14:36.305844527+01:00"
     dependencies:
     - name: kiam
       repository: https://uswitch.github.io/kiam-helm-charts/charts/
@@ -477,9 +504,9 @@ entries:
     version: 0.1.0
   kubezero-lib:
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.374267606+01:00"
+    created: "2020-05-19T15:14:36.332088143+01:00"
     description: KubeZero helm library - common helm functions and blocks
-    digest: 3c38f184cdae1e226ba70a2931a77ee43bbcf871bcf580ac8519f81c7ded98c3
+    digest: 846173b0a29c725b2f93d69855f4f0b7a5e11ec14061400abe68488cf4431555
     home: https://kubezero.com
     icon: https://cdn.zero-downtime.net/assets/logo_small.png
     keywords:
@@ -493,7 +520,7 @@ entries:
     - kubezero-lib-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.373976402+01:00"
+    created: "2020-05-19T15:14:36.331773175+01:00"
     description: KubeZero helm library - common helm functions and blocks
     digest: 61682151d3c2957d935847aa0c6ad8538266dc416697d56aa70a4b89a9ddb54c
     home: https://kubezero.com
@@ -509,7 +536,7 @@ entries:
     - kubezero-lib-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2020-05-19T12:19:34.373683978+01:00"
+    created: "2020-05-19T15:14:36.331456525+01:00"
     description: KubeZero helm library - common helm functions and blocks
     digest: 593821b09bf99ebe53184089755549f9be9ba757866516320848ecacb98680b3
     home: https://kubezero.com
@@ -524,4 +551,4 @@ entries:
     urls:
     - kubezero-lib-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-19T12:19:34.231426582+01:00"
+generated: "2020-05-19T15:14:36.198793185+01:00"
